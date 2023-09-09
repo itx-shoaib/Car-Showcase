@@ -2,10 +2,10 @@
 import { ButtonProps } from '@/types';
 import React from 'react'
 
-const Button = ({title, componentStyle, handleClick} : ButtonProps) => {
+const Button = ({title, componentStyle,btnType, handleClick} : ButtonProps) => {
   return (
     <button
-    type={`button`}
+    type={btnType}
     className={`custom-btn ${componentStyle}`}
     onClick={handleClick}
     >

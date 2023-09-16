@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import SearchBar from "./SearchBar";
 import Filter from "./Filter";
 import SearchManufacturer from "./SearchManufacturer"
-
+import CarCard from "./CarCard"
 
 // exporting all components here
 export {
@@ -16,5 +16,6 @@ export {
     Footer,
     Filter,
     SearchBar,
-    SearchManufacturer
+    SearchManufacturer,
+    CarCard
 }

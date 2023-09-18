@@ -21,15 +21,15 @@ export default async function Home() {
           <SearchBar />
 
           <div className="home__filters-container">
-            <Filter />
-            <Filter />
+            {/* <Filter />
+            <Filter /> */}
           </div>
         </div>
 
         {isDataEmpty ? (
           <section>
             <div className="home__cars-wrapper">
-              {allCars?.map((car) => (
+              {allCars?.map((car:any) => (
                 <CarCard car={car} />
               ))}
             </div>
